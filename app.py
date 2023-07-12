@@ -15,12 +15,12 @@ def main():
         st.write('')
 
 
-    st.subheader("Profil")
+    st.subheader("- Profil")
     st.write("Nama saya adalah Lie Eraldo Manason. Saya adalah seseorang yang memiliki semangat kerja yang tinggi, memiliki kemampuan untuk belajar hal-hal yang baru dengan sangat cepat, pekerja keras, disiplin, dan jujur. Saya yakin bahwa dengan kemampuan dan keterampilan yang saya miliki, saya dapat memberikan kontribusi yang sangat berarti bagi perusahaan anda")
     
     st.markdown("---")
 
-    st.subheader("Detail Data Pribadi")
+    st.subheader("- Detail Data Pribadi")
     st.text_input('**Nama Lengkap**',"Lie, Eraldo Manason")
     st.text_input('**Tempat, Tanggal Lahir**',"Semarang, 29 Januari 2003")
     st.text_input('**Alamat**', "Jl. Tambak Mas X No. 123, Semarang, Jawa Tengah")
