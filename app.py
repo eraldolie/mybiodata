@@ -63,13 +63,7 @@ def main():
     st.info(':star: Social Media [Instagram](https://instagram.com/eraldolie)')
     
     st.subheader(":arrow_forward: Kritik Dan Saran")
-    nama_pengguna = st.text_input("Masukkan Nama Anda")
-    komentar = st.text_area("Masukkan Komentar Anda di sini")
-    submitted = st.button("submit")
-    if submitted:
-        st.write("Nama :", nama_pengguna)
-        st.write("Menanggapi :", komentar)
-
+    st.info(:poin_up: Kritik Dan Saran [here](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdp9vK7VqUV1CfF_gTi2rWVNUFBZhn7JJq3AoSTTf51Nhrg7w/formResponse?pli=1)')
 
 if __name__ == '__main__':
     main()
